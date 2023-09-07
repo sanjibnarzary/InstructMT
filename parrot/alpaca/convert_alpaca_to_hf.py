@@ -16,10 +16,8 @@ import csv, json
 
 # Instrauct language
 lang_instruction = {
-    'de': {'de': "Deutsch", 'en': "Englisch", 'ja': "Japanisch", 'zh': "Chinesisch"},
-    'en': {'de': "German", 'en': "English", 'ja': "Japanese", 'zh': "Chinese"},
-    'ja': {'de': "ドイツ語", 'en': "英語", 'ja': "日本語", 'zh': "中国語"},
-    'zh': {'de': "德语", 'en': "英语", 'ja': "日语", 'zh': "中文"},
+    'eng_Latn': {'eng_Latn': "English", 'brx_Deva': "Bodo"},
+    'brx_Deva': {'eng_Latn': "इंराजि", 'brx_Deva': "बर'"},
 }
 
 IGNORE_INDEX = -100
