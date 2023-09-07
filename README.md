@@ -106,11 +106,11 @@ cd ./parrot/translation-instruction
 # Download the Translation data into the folder
 
 python3 convert_pair_to_alpaca.py \
-    -s zh -t en \
+    -s brx_Deva -t eng_Latn \
     -if instruct_follow.txt \
-    -sf newstest17-20.en-zh.zh \
-    -tf newstest17-20.en-zh.en \
-    -of data_ti_alp.zh-en.json
+    -sf ~/datas/eng-brx/train.brx \
+    -tf ~/datas/eng-brx/train.eng \
+    -of data_ti_alp.brx_Deva-eng_Latn.json
 ```
 
 ```
